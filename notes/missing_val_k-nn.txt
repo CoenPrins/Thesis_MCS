@@ -1,0 +1,88 @@
+The current problem is that with K-nn we are dealing with a missing
+
+My current implementation is this. 
+
+
+for mac in mac_ls:
+                
+                # print("with mac number:", mac)
+
+                if mac in dict_key and mac in timedata['mac'].values:
+                    test_abs = abs(dict_key[mac] - timedata[timedata['mac'] == mac]['rssi'].values[0])
+                    
+                    count += 1
+                elif mac in dict_key or mac in timedata['mac'].values:
+                    score += 100               
+                else:
+                    key_div -= 1
+            # print(f"count for key {key_n} = {count}")
+
+            #sloppy syntax once again
+            score_ls.append((key_n, score/key_div))
+
+
+Which is kinda dumb, i think the penalty for not matching of 100 is FAAAAAR to steep. 
+You need to rewrite this to the penalty is the (-existing value - -100)
+
+Have you taken the negativity of the values into consideration? They will be both negative AND 
+positive!!!!
+
+
+This step is very VERY very VERY very VERY very VERY Critical, since we will utilize this in both!. 
+
+
+
+IDEA 1 
+
+If match (calculate absolute distance)
+
+If no take the minimal possibility missing data = -100 so deduct from this. 
+
+Does not matter which one is missing something apply both!!! (ask this next presentation)
+
+
+
+Notes: regarding absolute distance, you are working with a logarithmic scale here. How can you 
+apply this distance? 
+
+
+
+
+
+Additional K-nn 
+
+Selecting using probability and then averaging out! 
+Acomparisonofdeterministicandprobabilisticmethodsforindoorlocalization BrettDawes,Kwan-WuChin∗
+
+
+https://www.analyticsvidhya.com/blog/2020/07/knnimputer-a-robust-way-to-impute-missing-values-using-scikit-learn/
+
+
+https://medium.com/@srv96/smoothing-techniques-for-time-series-data-91cccfd008a2 
+
+maybe we can just smooth 
+
+
+
+
+# We are going to work on the assumption, that one key point getting a value and the other is not IS BAD! 
+# We are not going to penalise both not having a value because that is nonsensical. 
+# For each combo look at the total number of unique mac numbers. ideally if you have 5 unique mac numbers
+# you have 5 unique matches! For one take the average for one penalise each missing combination! 
+# For one just ignore missing values and ONLY add the euclidean distance. 
+
+# this doesn't work because of different dimensionality! 
+
+# do you calculate AVERAGE euclidean distance? 
+
+
+
+# only the missing values in the REAL TIME DATA ARE RELEVANT. WE CAN ASSUME MISSING RADIO MAP TO BE -100 (or better yet), we can assume these 
+to be correct!. 
+
+This has some implications however, we still have an assumption for the -85, so use that one AND use the unfiltered one. in the -85 you assume each 
+missing is -100 under the presumption! that this is noise. 
+
+
+I'm thinking about it, maybe, just maybe, it's better to treat -100 as -100 instead of removing data, what does removing -100 data actually serve as a purpose. 
+It is important however to CLEARLY treat -100 as a NAN, we can't use it to JUST compare. 

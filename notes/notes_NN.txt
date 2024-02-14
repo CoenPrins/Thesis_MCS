@@ -1,0 +1,42 @@
+
+Make switches for the test paths so that you can toggle those. 
+
+Fix the representation to be clear!
+
+Make it possible to see 
+
+ORIGINAL TEST PATH
+K-NN A
+K-NN B 
+
+All in the same display. 
+
+
+#MAKE THE AVERAGE all the paths 
+
+
+# average is going to be it's own seperate thing 
+
+# It is going to be seperated in different paths, like the OG coords. 
+
+# It will contain.
+
+# create python file that 
+
+# create an imperfect one for james (we have to sync the time intervals better)
+
+1. strips the dt files to their time interval. 
+2. Go in steps of 10 seconds over the time interval. 
+3. Go over all the 5 dt files 
+4. The entries used to calculate are the new (path = false)
+5. 
+
+
+
+We are dealing with an average here of 4 different dt's 
+
+First make an average of these four dt's! 
+
+We can let this run tonight! 
+
+We need to compute these averages! 

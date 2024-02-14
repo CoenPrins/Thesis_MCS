@@ -1,0 +1,36 @@
+TO DO:
+
+
+
+TIME SHIFT:
+
+identifying the starting time of the paths, for movement. (they are standing still quite a lot before). Also check the 5 non averaged values for this. THey might be shifted themselves. 
+
+
+DATA: 
+
+I want to filter out the different floor AP points, because right now the amount doesn't add up! 
+
+
+I want to look at the data once I clean up everything below -85. ALTERNATE DATASET! 
+
+I want to produce graphs and data on the differnce between (NO ALTERATION, remove -100, and remove -85). For the radiomap and dataset. And how much datapoints we are left with. 
+
+
+I also want to experiment with intervals of 5-10-15-20-25 seconds. All of these might be a TAD too much. I would say save these for your best performing method and then pick your poison based on literature. 
+
+
+
+REMOVING BEACONS! 
+
+FILTERING & FINGERPRINTING
+
+Actually do what you promised 
+
+
+
+TESTING DATA PRODUCING RESULTS
+
+
+
+

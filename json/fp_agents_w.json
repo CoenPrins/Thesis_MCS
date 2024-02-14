@@ -1,0 +1,22 @@
+[
+    {
+        "name":"A1",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\fp_agent_traj_w\\create_paths_test0.csv"
+    },
+    {
+        "name":"A2",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\fp_agent_traj_w\\create_paths_test1.csv"
+    },
+    {
+        "name":"A3",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\fp_agent_traj_w\\create_paths_test2.csv"
+    },
+    {
+        "name":"A4",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\fp_agent_traj_w\\create_paths_test3.csv"
+    },
+    {
+        "name":"A5",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\fp_agent_traj_w\\create_paths_test4.csv"
+    }
+]

@@ -1,0 +1,14 @@
+Make a fingerprint picture where the amount of signals received per key reference point exactly.
+
+Then make the fingerprinting map focussing on simimilarity. Another colour for each similiarity. 
+
+
+Then make the map you made already where you compare the heat or something? 
+
+Rethink the heatmap you made, it's currently too crude! 
+
+# a rigourous aproach to reference point paper does
+
+
+
+# make a map

@@ -1,0 +1,18 @@
+https://towardsdatascience.com/introduction-to-embedding-clustering-and-similarity-11dd80b00061
+
+For the fingerprinting map I want, 
+
+Indexing the different AP points. 
+
+A similiarity index, for each point. 
+
+Each point get's a ranking how dissimilar it is to the rest. 
+
+Each point get's a ranking for how many 
+
+
+You kinda have this with just the signals, keep it it is good! 
+
+
+
+

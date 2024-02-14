@@ -1,0 +1,14 @@
+[
+    {
+        "name":"A1",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\3agent_traj_placeholder\\16_06_test_path_1.txt"
+    },
+    {
+        "name":"A2",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\3agent_traj_placeholder\\16_06_test_path_2.txt"
+    },
+    {
+        "name":"A3",
+        "waypoints_path":"C:\\Users\\coen_\\OneDrive\\Documents\\ma_thesis\\MAIN\\data\\paths\\3agent_traj_placeholder\\16_06_test_path_3.txt"
+    }
+]

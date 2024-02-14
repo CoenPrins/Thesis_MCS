@@ -1,0 +1,46 @@
+
+
+Stap 1 
+
+Make sure the pathing works for path 1 etc. Right now the data is weird. 
+DONE!
+
+Stap 2. 
+
+Initialise a fuckton of particles (for now N=100) in a diameter of 10 meter (source)
+around the initial location! Nope, 
+
+We initialise them in a radius, this radius needs to be wall chosen 
+
+
+-Make sure their size is dependent of their weight (make particles orange)
+- make the average BRIGHT RED (and nothing else can be red!)
+
+
+
+-weigh them based on distance to measurement. 
+	- We take total distance
+	- We divide distance by total distane. 
+	- that's the weight and that should already be normalised
+	- check sum of weights!!!
+
+
+- Then generate new particles based on weight! 
+
+	- you give a chance for each particle to produce new ones. 
+
+	- How do you keep N the same? 
+
+	- look at coding examples!!!
+
+
+
+
+- Now you will move the particles!!!
+
+
+- consider a reasonable distance and move them all! (I think randomly)
+- Move them all in a straight line with a speed randomly chosen from max walking speed +0.1 to 0. 
+
+
+- Now compare them to new measurement, 

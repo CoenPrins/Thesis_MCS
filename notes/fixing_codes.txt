@@ -1,0 +1,12 @@
+
+0 copy the existing code (all files, to somewhere far far away)
+1 identify what code you need in a list. 
+2 The server data overwrites the declaration in the physical agent, make this so that it's one or the other, 
+or that you atleast understand how it works 
+and that it is clear. 
+3 Clear up all the old leftover test data sets. 
+4 Keep one original of sergey and the current one, the rest goes away
+5 Push all the code to github.
+6 Done
+
+

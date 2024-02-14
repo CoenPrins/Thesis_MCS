@@ -1,0 +1,2 @@
+paths_2.csv = c:\Users\coen_\OneDrive\Documents\ma_thesis\files\iBeacon_data\summer_2_floor\radio_map_2.csv 
+radio_map_2.csv = "C:\Users\coen_\OneDrive\Documents\ma_thesis\files\iBeacon_data\summer_2_floor_04_08\almazov_4_8_full.csv"
